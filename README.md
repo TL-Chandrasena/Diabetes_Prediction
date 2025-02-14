@@ -20,3 +20,23 @@ Features: Age, BMI, physical activity, diet, blood pressure, smoking, alcohol co
 ✔ Performance evaluation using accuracy, precision, recall, F1-score, and ROC AUC
 ✔ Hyperparameter tuning for optimized predictions
 ✔ Comparison of model performance to determine the best classifier
+
+🔄 Data Preprocessing
+
+Handled missing values using imputation methods.
+
+Removed outliers in BMI using statistical analysis.
+
+Feature scaling applied for optimal model performance.
+
+Categorized BMI into Underweight, Normal, and Overweight.
+
+Explored feature importance using SHAP and correlation analysis.
+
+🎯 Results & Key Findings
+
+Extra Trees achieved the highest accuracy with an ROC AUC score of 0.9849.
+
+XGBoost and CatBoost also performed strongly, making them reliable choices for diabetes prediction.
+
+Feature importance analysis showed that BMI, age, general health status, and physical activity were significant predictors.
